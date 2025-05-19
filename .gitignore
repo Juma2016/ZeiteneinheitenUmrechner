@@ -1,0 +1,12 @@
+*.class
+*.DS_Store
+*.egg-info
+*.egg
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.swp
+*.tar.gz
+*.zip           
