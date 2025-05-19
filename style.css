@@ -32,3 +32,11 @@ input {
   font-size: 1rem;
   margin-top: 0.5rem;
 }
+
+.clock-gif {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+  max-width: 100%;
+}
