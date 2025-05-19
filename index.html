@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Time Unit Converter</h1>
+
+    <div class="grid">
+      <label>Years
+        <input type="number" id="years" oninput="convertFrom('years')">
+      </label>
+
+      <label>Months
+        <input type="number" id="months" oninput="convertFrom('months')">
+      </label>
+
+      <label>Days
+        <input type="number" id="days" oninput="convertFrom('days')">
+      </label>
+
+      <label>Hours
+        <input type="number" id="hours" oninput="convertFrom('hours')">
+      </label>
+
+      <label>Minutes
+        <input type="number" id="minutes" oninput="convertFrom('minutes')">
+      </label>
+
+      <label>Seconds
+        <input type="number" id="seconds" oninput="convertFrom('seconds')">
+      </label>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
