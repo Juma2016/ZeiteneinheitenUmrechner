@@ -15,10 +15,10 @@ function convertFrom(unit) {
   }
 
   // update all fields
-  document.getElementById("years").value = (seconds / (365 * 24 * 60 * 60)).toFixed(6);
-  document.getElementById("months").value = (seconds / (30 * 24 * 60 * 60)).toFixed(6);
-  document.getElementById("days").value = (seconds / (24 * 60 * 60)).toFixed(6);
-  document.getElementById("hours").value = (seconds / (60 * 60)).toFixed(6);
-  document.getElementById("minutes").value = (seconds / 60).toFixed(6);
-  document.getElementById("seconds").value = seconds.toFixed(6);
+  document.getElementById("years").value = (seconds / (365 * 24 * 60 * 60)).toFixed(2);
+  document.getElementById("months").value = (seconds / (30 * 24 * 60 * 60)).toFixed(2);
+  document.getElementById("days").value = (seconds / (24 * 60 * 60)).toFixed(2);
+  document.getElementById("hours").value = (seconds / (60 * 60)).toFixed(2);
+  document.getElementById("minutes").value = (seconds / 60).toFixed(2);
+  document.getElementById("seconds").value = seconds.toFixed(2);
 }
