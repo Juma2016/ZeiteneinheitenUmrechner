@@ -10,3 +10,14 @@
 *.swp
 *.tar.gz
 *.zip           
+/.gitignore
+/.idea
+/.vscode
+/.pytest_cache
+/.mypy_cache
+/.coverage
+/.coverage.*
+/.tox           
+/.tox-*
+/.venv
+/.venv-*            
