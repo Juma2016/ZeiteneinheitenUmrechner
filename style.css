@@ -55,7 +55,9 @@ input {
 @media (max-width: 600px) {
   .grid {
     grid-template-columns: 1fr;
+    color: black;
   }
+
 }
 
 body {
@@ -67,3 +69,5 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+
