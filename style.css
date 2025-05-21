@@ -4,6 +4,16 @@ body {
   text-align: center;
   padding: 2rem;
 }
+h1 {
+  color: #f50404;
+}
+.hder{
+  background: #2b06e4;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
 
 .container {
   background: white;
